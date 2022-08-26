@@ -1,4 +1,11 @@
 local plrGui = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
+local Plr = game.Players.LocalPlayer
+
+Plr:GetHouse () .KeyDown:Connect(function(K)
+    if K == "_" then
+        script.Parent.Visible = true
+    end
+    end)
 print("o")
 for i, v in pairs(plrGui:GetChildren()) do
     if v:IsA("ScreenGui") then
