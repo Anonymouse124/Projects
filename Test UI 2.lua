@@ -10,7 +10,7 @@ OrionLib:MakeNotification({
 })
 
 -- Key
-_G.Key = "CrimsonOnTop"
+_G.Key = "BobDontShare"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
